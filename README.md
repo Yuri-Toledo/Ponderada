@@ -57,13 +57,20 @@ O objetivo desta Seção é ensinar como fazer alterações locais e enviá-las 
 Para começar, adiciona-se um arquivo html no repositório local e commita com o seguinte comando:
 `git commit -a -m "feat: Adiciona index.html"`
 ![Commit local](commit_local.png)
+Agora podemos fazer um push do nosso commit com o comando:
+`git push origin`
+![Commit evidenciado no repositório](commit_GitHub.png)
 ## Conclusão
+Agora é possível fazer alterações localmente e enviar para o remoto.
 
 # GitHub Branch
 
 ## Introdução
+Entendendo o conceito de Branches no GitHub
 ## Objetivo
+O objetivo desta Seção é ensinar como criar uma branch e fazer uma alteração sem afetar a versão main.
 ## Resultado
+
 ## Conclusão
 
 # Pull Branch from GitHub
