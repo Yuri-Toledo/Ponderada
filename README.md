@@ -106,12 +106,27 @@ Com o pull nós deixamos a nossa versão local do repositório ciente das altera
 ![](git_branch-a.png)
 
 Por fim, com o comando `git checkout <nomedabranchnova>`, teremos a branch remota localmente:
-![](git_checkout.png)
-
+![git checkout teste](git_checkout.png)
+<!-- Perceba que isso funciona pelo fato de já existir remotamente uma branch com esse nome. Caso seja um nome não existente você criará uma nova branch. -->
 ## Conclusão
+Agora você está pronto para editar na sua nova branch
 
 # Push Branch to GitHub
+
+
 ## Introdução
+Criar uma branch local e enviar ao repositório remoto
+
 ## Objetivo
+O objetivo desta Seção é ensinar como criar uma nova branch localmente e disponibilizá-la no GitHub
 ## Resultado
+Para começar vamos usar o comando `git checkout -b <nomedanovabranch>`, com ele criamos uma nova branch localmente:
+![git checkout -b novaBranchLocal](git_checkout-b.png)
+
+Agora, com o comando `git add .` ou `git add <nomedoarquivo>` nós iremos levar para a área de tranferência as alterações.
+Então, com o commit -> `git commit -m "Update README.md"`
+Nós temos as alterações feitas na branch localmente
+Por fim, com o comando `git push origin <nomedabranchnova>`, nós levaremos ao repositório remoto a nova branch já com as suas alterações.
+
+
 ## Conclusão
