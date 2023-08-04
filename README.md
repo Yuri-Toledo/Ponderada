@@ -71,6 +71,12 @@ Entendendo o conceito de Branches no GitHub
 O objetivo desta Seção é ensinar como criar uma branch e fazer uma alteração sem afetar a versão main.
 ## Resultado
 
+Ao clicar na branch atual, pode-se criar uma nova branch:
+![]()
+A partir daí, editamos o arquivo index.html, apenas na branch teste. Ao comittarmos, teremos a branch teste com uma alteração que não está presente na branch main:
+
+![]()
+
 ## Conclusão
 
 # Pull Branch from GitHub
