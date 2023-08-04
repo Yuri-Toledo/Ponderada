@@ -10,13 +10,13 @@ O objetivo desta Seção é ensinar como criar um repositório no GitHub - remot
 ## Resultado
 Após criar o repositório remoto no Site do GitHub:
 
-![Imagem do repositório remoto](repositorio_criado.png)
+![Imagem do repositório remoto](imagens/repositorio_criado.png)
 
 Cria-se o diretório onde estará o repositório local e em seguida, o repositório local:
 
-![Imagem do diretório criado](Diretorio_criado.png)
+![Imagem do diretório criado](imagens/Diretorio_criado.png)
 
-![Git init](git_init.png)
+![Git init](imagens/git_init.png)
 
 Com ambos criados, devemos agora relacionar o repositório local com o remoto:
 Com o terminal aberto no diretório do repositório, usa-se o comando:
@@ -32,9 +32,9 @@ Editar um arquivo pelo GitHub
 O objetivo desta Seção é ensinar como alterar e commitar sua alteração pelo próprio GitHub
 ## Resultado
 Para editar o README.md, basta ir até o ícone de edição:
-![icone de edição no gitHub](edit_github.png)
-![commita edicção](edita_arquivo.png)
-![commita real oficial](commit_pelo_github.png)
+![icone de edição no gitHub](imagens/edit_github.png)
+![commita edicção](imagens/edita_arquivo.png)
+![commita real oficial](imagens/commit_pelo_github.png)
 ## Conclusão
 Terminou-se então a edição e commit de um arquivo diretamente pelo GitHub
 
@@ -58,7 +58,7 @@ Enquanto o merge atualiza a sua branch local em relação a mesma branch remota.
 Usando os comandos `git status` ou então `git diff origin/<nomedabranch>` pode-se observar a diferença entre a branch local e remota.
 
 A alternativa mais comum é usar `git pull origin`
-![Terminal com Pull](pull.png)
+![Terminal com Pull](imagens/pull.png)
 
 ## Conclusão
 Aqui aprendeu-se 3 conceitos muito importantes e presentes no cotidiano de um desenvolvedor.
@@ -74,10 +74,10 @@ O objetivo desta Seção é ensinar como fazer alterações locais e enviá-las 
 ## Resultado
 Para começar, adiciona-se um arquivo html no repositório local e commita com o seguinte comando:
 `git commit -a -m "feat: Adiciona index.html"`
-![Commit local](commit_local.png)
+![Commit local](imagens/commit_local.png)
 Agora podemos fazer um push do nosso commit com o comando:
 `git push origin`
-![Commit evidenciado no repositório](commit_no_rep_remoto.png)
+![Commit evidenciado no repositório](imagens/commit_no_rep_remoto.png)
 ## Conclusão
 Agora é possível fazer alterações localmente e enviar para o remoto.
 
@@ -90,10 +90,10 @@ O objetivo desta Seção é ensinar como criar uma branch e fazer uma alteraçã
 ## Resultado
 
 Ao clicar na branch atual, pode-se criar uma nova branch:
-![nova branch no Github](cria_nova_branch.png)
+![nova branch no Github](imagens/cria_nova_branch.png)
 A partir daí, editamos o arquivo index.html, apenas na branch teste. Ao comittarmos, teremos a branch teste com uma alteração que não está presente na branch main:
 
-![Diferença entre as branchs](diferenca_branchs.png)
+![Diferença entre as branchs](imagens/diferenca_branchs.png)
 
 ## Conclusão
 Nesta Seção pode-se entender como criar nova branchs e visualizar o seu funcionamento
@@ -107,15 +107,15 @@ O objetivo desta Seção é ensinar como puxar localmente uma nova branch presen
 ## Resultado
 para atualizar o nosso repositório local sobre as atualizações feitas no remoto, usa-se o comando `git pull` como mostrado anteriormente.
 Com o `git status`, pode-se perceber que a branch está atualizada e com o `git branch`, percebe-se que ainda temos apenas uma branch. 
-![git branch](git_branch.png)
+![git branch](imagens/git_branch.png)
 
 Por que isso acontece?
 
 Com o pull nós deixamos a nossa versão local do repositório ciente das alterações que foram feitas, mas ainda não puxamos a branch criada para a máquina local. Para evidenciar isso, usando o comando `git branch -a` (-a indica que estamos buscando o repositório local e o remoto), vê-se que está presente a nova branch vindo da origin
-![](git_branch-a.png)
+![](imagens/git_branch-a.png)
 
 Por fim, com o comando `git checkout <nomedabranchnova>`, teremos a branch remota localmente:
-![git checkout teste](git_checkout.png)
+![git checkout teste](imagens/git_checkout.png)
 <!-- Perceba que isso funciona pelo fato de já existir remotamente uma branch com esse nome. Caso seja um nome não existente você criará uma nova branch. -->
 ## Conclusão
 Agora você está pronto para editar na sua nova branch
@@ -130,9 +130,9 @@ Criar uma branch local e enviar ao repositório remoto
 O objetivo desta Seção é ensinar como criar uma nova branch localmente e disponibilizá-la no GitHub
 ## Resultado
 Para começar vamos usar o comando `git checkout -b <nomedanovabranch>`, com ele criamos uma nova branch localmente:
-![git checkout -b novaBranchLocal](git_checkout-b.png)
+![git checkout -b novaBranchLocal](imagens/git_checkout-b.png)
 Pode-se observar a presença da branch criada localmente no GitHub:
-![presença da nova branch no Github](branch_local_remoto.png)
+![presença da nova branch no Github](imagens/branch_local_remoto.png)
 
 ## Conclusão
 Com isso, você está pronto para utilizar as ferramentas oferecidas pelo versionamento de projeto com o Git e GitHub
