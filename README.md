@@ -30,7 +30,7 @@ O objetivo desta Seção é ensinar como alterar e commitar sua alteração pelo
 Para editar o README.md, basta ir até o ícone de edição:
 ![icone de edição no gitHub](edit_github.png)
 ![commita edicção](edita-arquivo.png)
-![commita real oficial](commita-arquivo)
+![commita real oficial](commit_no_rep_remoto.png)
 ## Conclusão
 Terminou-se então a edição e commit de um arquivo diretamente pelo GitHub
 
@@ -59,7 +59,7 @@ Para começar, adiciona-se um arquivo html no repositório local e commita com o
 ![Commit local](commit_local.png)
 Agora podemos fazer um push do nosso commit com o comando:
 `git push origin`
-![Commit evidenciado no repositório](commit_GitHub.png)
+![Commit evidenciado no repositório](commit_no_rep_remoto.png)
 ## Conclusão
 Agora é possível fazer alterações localmente e enviar para o remoto.
 
